@@ -1,0 +1,34 @@
+.imageUpload__bottomNav {
+  position: fixed;
+  bottom: 0;
+  width: 100% !important;
+  border-top: 1px solid lightgray;
+}
+.imageUpload__bottomNav > .MuiSvgIcon-root {
+  color: #333 !important;
+}
+
+.app__modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app__modal > input {
+  padding: 20px;
+  font-size: 16px;
+}
+#imageUpload {
+  display: none;
+}
+.imageUpload__boxImagePreview {
+  margin-top: 20px;
+  object-fit: contain;
+}
+
+.imageUpload__imagePreview {
+  max-width: 250px !important;
+  border-radius: 20px;
+}
+.imageUpload__header {
+  margin-bottom: 20px;
+}
