@@ -1,0 +1,8 @@
+.messagesBox {
+  display: flex !important;
+  max-width: 500px !important;
+  background-color: #fff !important;
+  border: 1px solid lightgray !important;
+  margin-left: auto;
+  margin-right: auto;
+}

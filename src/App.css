@@ -7,7 +7,7 @@
   z-index: 1;
   object-fit: contain;
   background-color: #fff;
-  padding: 20px;
+  padding-left: 20px;
   border-bottom: 1px solid lightgray;
   display: flex;
   justify-content: space-between;
@@ -19,11 +19,6 @@
   background-color: #fafafa;
   height: auto !important;
 }
-.app__signup {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-}
 .app__posts {
   padding: 20px;
   display: flex;
@@ -33,8 +28,30 @@
   margin-left: 20px;
   position: static;
 }
+.MuiIconButton-label {
+  color: black !important;
+}
 @media (max-width: 800px) {
   .app__postsRight {
     display: none;
   }
+}
+@media (max-width: 600px) {
+  .app__headerInput {
+    display: none;
+  }
+}
+.app__headerInput {
+  margin-top: 20px;
+}
+.app__headerInput > input {
+  background-color: #fafafa !important;
+  border: solid 1px #dbdbdb;
+  border: solid 1px rgba(var(--b6a, 219, 219, 219), 1);
+  border-radius: 3px;
+  color: #262626;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  outline: 0;
+  padding: 3px 10px 3px 26px;
+  z-index: 2;
 }

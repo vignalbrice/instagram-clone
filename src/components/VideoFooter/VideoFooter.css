@@ -1,0 +1,39 @@
+.videoFooter__text {
+  position: absolute;
+  bottom: 0;
+  color: #333;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.videoFooter {
+  position: relative;
+  bottom: 100px;
+  margin-left: 20px;
+}
+
+.videoFooter__text > h3 {
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+.videoFooter__text > h3 > button {
+  color: white;
+  font-weight: 900;
+  text-transform: inherit;
+}
+.videoFooter__ticker > .ticker {
+  width: 60%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  height: fit-content;
+}
+.videoFooter__ticker h1 {
+  font-size: 12px;
+  padding-top: 7px;
+}
+
+.videoFooter__icon {
+  position: absolute;
+  left: 5px;
+}

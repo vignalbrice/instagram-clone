@@ -1,0 +1,148 @@
+.auth {
+  height: 100vh;
+}
+.auth__image {
+  object-fit: contain;
+  margin-top: 20px;
+}
+.auth__rightContainer {
+  display: flex;
+  flex-direction: column;
+}
+.auth__form {
+  width: 300px;
+  max-width: 300px;
+  max-height: 350px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+.auth__formSignup {
+  width: 300px;
+  max-width: 300px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+.auth__formSignup > button {
+  background-color: #385185 !important;
+}
+.auth__formSignup > img {
+  object-fit: contain;
+  width: 180px;
+}
+.auth__haveAnAccount {
+  width: 300px;
+  max-width: 300px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.auth__haveAnAccount > p {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.auth__haveAnAccount > p > a {
+  text-decoration: none;
+  color: #00a2f8;
+  font-weight: 600;
+  font-size: 15px;
+}
+.auth__container {
+  display: flex;
+  justify-content: center;
+}
+.auth__form > img {
+  object-fit: contain;
+  width: 180px;
+}
+.auth__signup {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.auth__signup > input {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  background-color: #fafafafa;
+}
+.auth__signup > button {
+  background: #0095f6 !important;
+  color: #fff;
+  text-transform: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.auth__signup > button:disabled {
+  background-color: #b2dffc !important;
+  color: #fff;
+}
+.auth__separator {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.auth__fbAuth > button {
+  margin-top: 20px;
+  text-transform: none;
+  color: #385185 !important;
+  margin-bottom: 10px;
+}
+.auth__forgottenPassword > a {
+  text-decoration: none;
+  color: #5270b8;
+  font-size: 12px;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: gray;
+  font-weight: 600;
+  font-size: 13px;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid lightgray;
+}
+.separator::before {
+  margin-right: 1.2em;
+}
+.separator::after {
+  margin-left: 1.2em;
+}
+
+.auth__fbAuthContained > button {
+  color: #fff !important;
+  background: #0095f6 !important;
+  margin-top: 20px;
+  text-transform: none;
+  margin-bottom: 10px;
+}
+
+.auth__registerSentence > p {
+  color: #8e8e8e;
+  max-width: 80%;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+}
+.auth__registerSentence {
+}
